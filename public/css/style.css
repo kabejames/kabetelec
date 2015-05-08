@@ -1,0 +1,83 @@
+
+
+ @media (max-width: 480px){
+
+ html, body {
+	border: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background: #F4F4F4;
+	color: #D2D2D2;
+	font-family: "Trebuchet MS", "Arial Rounded", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+ }
+}
+
+
+ #wrapper {
+	
+	 width: 100%;
+	 margin: auto;
+	 background-color: white;
+	
+	
+}
+
+
+/* === HEADER === */
+ 
+
+ header {
+	
+	width: 100%;
+	text-align: center;
+	background-color: #B22222;
+	height:auto;
+  }
+
+header, h1 {
+
+    color:white;
+}
+
+/* === FOOTER === */
+
+
+
+ footer {
+
+    width: 100%;
+	text-align: center;
+	background-color: #B22222;
+	height:20px;
+}
+
+footer, h1 {
+
+    color:white;
+}
+ 
+ 
+  #callButton {
+	
+	
+	    border-radius: 10px;
+        border: 1px solid #58A61E; 
+	    color: #fff;
+	    width:auto;
+        font-weight: bold;
+        font-size: 20px;
+        height:32px;
+        line-height:0;
+        padding-left:2px;
+        outline: 0;
+        background-color: #00FF00;
+       
+        
+	
+	
+}
+ 
+

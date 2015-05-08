@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.kabetelec.webcall"
+        versionCode="10" 
+        version   = "1.0.0">
+		
+	<!-- For more information about using config.xml, see
+		https://build.phonegap.com/docs/config-xml -->
+
+    <!-- versionCode is optional and Android only -->
+    
+    <!-- define which version of phonegap to use, not required -->
+    <preference name="phonegap-version" value="3.7.0" />
+	
+	<!-- this app will have no device api access -->
+	<preference name="permissions" value="none"/>
+	
+	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
+	<icon src="public/img/LOGO.png" />
+
+	<!-- the default splash screen to use -->
+	<!-- iOS -->
+	<gap:splash src="public/img/laphonegap_splash.png" width="320" height="480" />
+	<gap:splash src="public/img/laphonegap_splash.png" width="640" height="960" />
+	<gap:splash src="public/img/laphonegap_splash.png" width="1024" height="768" />
+	<gap:splash src="public/img/laphonegap_splash.png" width="768" height="1024" />
+	<!-- Android -->
+	<gap:splash src="public/img/laphonegap_splash.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="public/img/laphonegap_splash.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="public/img/laphonegap_splash.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="public/img/laphonegap_splash.png" gap:platform="android" gap:density="xhdpi" />
+	<!-- BlackBerry -->
+	<gap:splash src="public/img/laphonegap_splash.png" gap:platform="blackberry" />
+	<!-- Windows Phone -->
+	<gap:splash src="public/img/laphonegap_splash.jpg" gap:platform="winphone" />
+
+    <name>kabetelec</name>
+
+    <description>
+        web calling test. 
+    </description>
+
+    <author href="https://mail.google.com" email="kabejames@gmail.com">
+        Kabera James
+    </author>
+
+</widget>
